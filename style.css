@@ -21,8 +21,10 @@ p {
 }
 @keyframes bgflux {
   0%      {background: white}
-  49.9%     {background: rgb(255, 0, 0)}
+  45%     {background: white}
+  49.9%   {background: rgb(255, 0, 0)}
   50%     {background: rgb(255, 74, 228)}
-  50.1%     {background: rgb(255, 0, 0)}
+  50.1%   {background: rgb(255, 0, 0)}
+  55%     {background: white}
   100%    {background: white}
   }
