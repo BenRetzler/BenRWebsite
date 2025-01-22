@@ -3,9 +3,11 @@ body {
 }
 p {
   color: black;
-  font-size: 12px;
-  transition-duration: 2s;
 }
-p: hover{
-  font-size: 120px;
+@keyframes textflux {
+0%      {text-size:12px}
+25%     {text-size:24px}
+50%     {text-size:36px}
+75%     {text-size:24px}
+100%    {text-size:12px}
 }
