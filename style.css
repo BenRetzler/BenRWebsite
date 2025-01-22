@@ -4,9 +4,8 @@ body {
 p {
   color: black;
   font-size: 12px;
-  transition: font-size 2s;
+  transition-duration: 2s;
 }
 p: hover{
   font-size: 120px;
-  cursor: pointer;
 }
