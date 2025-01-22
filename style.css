@@ -1,7 +1,7 @@
 body {
   background: white;
   animation-name: bgflux;
-  animation-duration: 6s;
+  animation-duration: 12s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
@@ -21,8 +21,8 @@ p {
 }
 @keyframes bgflux {
   0%      {background: white}
-  47.5%     {background: rgb(183, 183, 183)}
-  50%     {background: rgb(95, 95, 95)}
-  52.5%     {background: rgb(183, 183, 183)}
+  49.9%     {background: rgb(255, 0, 0)}
+  50%     {background: rgb(255, 74, 228)}
+  50.1%     {background: rgb(255, 0, 0)}
   100%    {background: white}
   }
