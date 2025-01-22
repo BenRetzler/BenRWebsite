@@ -1,0 +1,169 @@
+body {
+  background: black;
+}
+p {
+  color: white;
+  
+}
+h2 {
+  color: #3c3c3c;
+}
+h3 {
+  color: #6c6c6c;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: example;
+  animation-timing-function: linear;
+  padding: 16px 500px;
+}
+p:hover {
+  animation-name: pastel_rainbow_txt;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+h1 {
+  font-weight: bold;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: monospace;
+  margin: auto;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #34ff2e;
+  position: absolute;
+  right: 250px;
+  top: 50px
+}
+
+.button1:hover {
+  background-color: #34ff2e;
+  color: black;
+}
+.button1:active {
+  border: 5px solid black;
+  animation-name: example;
+  animation-duration: 0.1s;
+  animation-iteration-count: 3;
+}
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+  position: absolute;
+  right: 255px;
+  top: 250px
+}
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.button2:active {
+  animation-name: grow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.button3 {
+  background-color: white;
+  color: black;
+  border: 5px solid;
+  animation-name: pastel_rainbow_br;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.button3:active {
+  font-size: 32px;
+  width: 400px;
+  height: 200px;
+  border: 5px solid white;
+  animation-name: pastel_rainbow_bg;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  
+}
+@keyframes example {
+  0%  {transform:rotate(0deg)}
+  25% {transform:rotate(90deg)}
+  50%{transform:rotate(180deg)}
+  75%{transform:rotate(270deg)}
+  100%{transform:rotate(360deg)}
+}
+@keyframes rbb {
+  0%  {transform:rotate(0deg)}
+  25% {transform:rotate(90deg)}
+  50% {transform:rotate(180deg)}
+  75% {transform:rotate(270deg)}
+  100%{transform:rotate(360deg)}
+}
+@keyframes pastel_rainbow_br {
+  0%   {border-color:lightcoral;}
+  10%  {border-color:lightsalmon;}
+  20%  {border-color:lightgoldenrodyellow;}
+  30%  {border-color:lightgreen;}
+  40%  {border-color:lightblue;}
+  50%  {border-color:lightpink;}
+  60%  {border-color:lightblue;}
+  70%  {border-color:lightgreen;}
+  80%  {border-color:lightgoldenrodyellow;}
+  90%  {border-color:lightsalmon;}
+  100% {border-color:lightcoral;}
+}
+@keyframes pastel_rainbow_bg {
+  0%   {background-color:lightcoral;}
+  10%  {background-color:lightsalmon;}
+  20%  {background-color:lightgoldenrodyellow;}
+  30%  {background-color:lightgreen;}
+  40%  {background-color:lightblue;}
+  50%  {background-color:lightpink;}
+  60%  {background-color:lightblue;}
+  70%  {background-color:lightgreen;}
+  80%  {background-color:lightgoldenrodyellow;}
+  90%  {background-color:lightsalmon;}
+  100% {background-color:lightcoral;}
+}
+@keyframes pastel_rainbow_txt {
+  0%   {color:lightcoral;}
+  10%  {color:lightsalmon;}
+  20%  {color:lightgoldenrodyellow;}
+  30%  {color:lightgreen;}
+  40%  {color:lightblue;}
+  50%  {color:lightpink;}
+  60%  {color:lightblue;}
+  70%  {color:lightgreen;}
+  80%  {color:lightgoldenrodyellow;}
+  90%  {color:lightsalmon;}
+  100% {color:lightcoral;}
+}
+@keyframes grow {
+  0%  {transform:scale(1)}
+  10%  {transform:scale(2)}
+  20%  {transform:scale(3)}
+  30%  {transform:scale(4)}
+  40%  {transform:scale(5)}
+  50%  {transform:scale(6)}
+  60%  {transform:scale(7)}
+  70%  {transform:scale(8)}
+  80%  {transform:scale(9)}
+  90%  {transform:scale(1)}
+  100%  {transform:scale(1)}
+}
