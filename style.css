@@ -4,3 +4,6 @@ body {
 p {
   color: black;
 }
+p: hover{
+  font-size: 12px;
+}
