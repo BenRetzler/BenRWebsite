@@ -3,7 +3,7 @@ body {
 }
 p {
   color: black;
-  animation: textflux;
+  animation-name: textflux;
   animation-duration: 3s;
 }
 @keyframes textflux {
