@@ -1,5 +1,8 @@
 body {
   background: white;
+  animation-name: bgflux;
+  animation-duration: 2s;
+  animation-timing-function: linear;
 }
 p {
   color: black;
@@ -13,3 +16,10 @@ p {
 75%     {text-size:24px}
 100%    {text-size:12px}
 }
+@keyframes bgflux {
+  0%      {background: white}
+  25%     {background: rgb(183, 183, 183)}
+  50%     {background: rgb(95, 95, 95)}
+  75%     {background: rgb(183, 183, 183)}
+  100%    {background: white}
+  }
