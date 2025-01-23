@@ -7,6 +7,8 @@ body {
 }
 p {
   color: black;
+}
+p :hover {
   animation-name: textflux;
   animation-duration: 3s;
   animation-timing-function: linear;
