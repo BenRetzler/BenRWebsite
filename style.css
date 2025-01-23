@@ -5,4 +5,5 @@ p {
   color: black;
   text-decoration: wavy;
   text-decoration-color: rgb(66, 167, 255);
+  text-decoration-thickness: 5px;
 }
