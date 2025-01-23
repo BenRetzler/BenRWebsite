@@ -3,8 +3,5 @@ body {
 }
 p {
   color: black;
-  text-decoration-color: rgb(66, 167, 255);
-  text-decoration-thickness: 5px;
-  text-decoration-line: underline;
-  text-decoration-style: solid;
+  text-decoration: underline solid blue 2px;
 }
