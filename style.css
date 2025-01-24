@@ -5,3 +5,11 @@ p {
   color: black;
   text-decoration: underline solid blue 2px;
 }
+header {
+  text-align: center;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px dashed black;
+  padding-left: 250px;
+  padding-right: 250px;
+}
