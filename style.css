@@ -19,7 +19,7 @@ a {
   transition: all 1s ease-in-out
 }
 a:hover {
-  padding: 30px;
+  padding: 20px;
   transition: all 1s ease-in-out;
   border: 9px solid rgb(140, 150, 205);
 }
