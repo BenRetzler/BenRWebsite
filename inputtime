@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>i really want variables, it would be fuuuuun</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>holy cow its a website</header>
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="test.html">Paragraph</a>
+      <a href="inputtime.html">Input</a>
+		</nav>
+		<br><br><hr>
+		<input> put something here </input>
+	</body>
+</html>
