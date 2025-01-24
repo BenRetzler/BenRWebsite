@@ -28,6 +28,6 @@ a:hover {
 }
 a.active {
   background: rgb(237, 251, 255);
-  color: rgb(151, 255, 255);
+  color: rgb(0, 3, 63);
   text-decoration: none;
 }
