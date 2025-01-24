@@ -6,8 +6,7 @@ p {
   text-decoration: underline solid blue 2px;
 }
 header {
-  text-align: center;
-  align-self: center;
+  margin: auto;
   font-size: 32px;
   font-family: Arial, Helvetica, sans-serif;
   border: 3px dashed black;
