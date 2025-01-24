@@ -16,6 +16,7 @@ header {
 a {
   padding: 25px;
   border: 4px solid rgb(140, 150, 205);
+  transition: all 1s ease-in-out
 }
 a:hover {
   padding: 30px;
