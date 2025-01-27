@@ -3,7 +3,7 @@ body {
 }
 p {
   color: black;
-  text-decoration: underline solid blue 2px;
+  animation: textstuff 5s linear 0s infinite;
 }
 header {
   margin: auto;
@@ -37,4 +37,12 @@ a.active {
   background: rgb(237, 251, 255);
   color: rgb(0, 3, 63);
   text-decoration: none;
+  border: ;
+}
+@keyframes textstuff{
+  0%    {text-shadow: rgb(0, 0, 0) 1px 0 0px;}
+  45%   {text-shadow: rgb(0, 0, 0) 1px 0 0px;}
+  50%   {text-shadow: rgb(255, 255, 255) 1px 0 10px;}
+  55%   {text-shadow: rgb(0, 0, 0) 1px 0 0px;}
+  100%  {text-shadow: rgb(0, 0, 0) 1px 0 0px;}
 }
