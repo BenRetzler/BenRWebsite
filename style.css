@@ -25,7 +25,7 @@ a {
 a:hover {
   padding: 22px;
   transition: all 0.1s;
-  border: 9px solid rgb(140, 150, 205);
+  border: 9px solid rgb(160, 170, 225);
 }
 a.active {
   background: rgb(237, 251, 255);
