@@ -13,6 +13,10 @@ header {
   border: 3px dashed black;
   width:300px;
 }
+h1 {
+  font-size-adjust: 12px;
+  font-family: ;
+}
 a {
   border-radius: 15%;
   padding-top: 15px;
@@ -37,7 +41,6 @@ a.active {
   background: rgb(237, 251, 255);
   color: rgb(0, 3, 63);
   text-decoration: none;
-  border: ;
 }
 @keyframes textstuff{
   0%    {text-shadow: rgb(0, 0, 0) 0px 0 0px;}
