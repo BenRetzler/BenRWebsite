@@ -49,6 +49,13 @@ a.active {
   border-radius: 50%;
   display: inline-block;
 }
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
 @keyframes textstuff{
   0%    {text-shadow: rgb(0, 0, 0) 0px 0 0px;}
   45%   {text-shadow: rgb(0, 0, 0) 0px 0 0px;}
